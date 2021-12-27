@@ -13,7 +13,9 @@
 	<!--<bean id="vehicle" class="com.mavenspring.SpringTest001.Bike"></bean>  -->
 	
 	<bean id="tyre" class="com.mavenspring.SpringTest001.Tyre">
-		<property name="brand" value="Ceat"></property>
+		<!--<property name="brand" value="Ceat"></property>  -->
+		
+		<constructor-arg value="MRF"></constructor-arg>
 	</bean>
 </beans>
         
