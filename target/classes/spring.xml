@@ -11,6 +11,10 @@
     <context:component-scan base-package="com.mavenspring.SpringTest001"></context:component-scan>
     
 	<!--<bean id="vehicle" class="com.mavenspring.SpringTest001.Bike"></bean>  -->
+	
+	<bean id="tyre" class="com.mavenspring.SpringTest001.Tyre">
+		<property name="brand" value="Ceat"></property>
+	</bean>
 </beans>
         
         
